@@ -5,12 +5,12 @@
 
 ## 一键安装
 ```sh
-curl https://raw.githubusercontent.com/Leptune/vimrc-for-phper/master/install.sh|sh
+curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|sh
 ```
 
 ## 截图
-![截图1](https://raw.githubusercontent.com/Leptune/vimrc-for-phper/master/screenshots/1.png)
-![截图2](https://raw.githubusercontent.com/Leptune/vimrc-for-phper/master/screenshots/2.png)
+![截图1](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/1.png)
+![截图2](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/2.png)
 
 ## 被动技能
 - 各种自动补全(php、html、括号)
