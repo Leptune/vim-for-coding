@@ -1,0 +1,11 @@
+quickrun
+20bcbd2d098f040b30fed86927921271d3503d76
+
+Data.List
+System.File
+System.Filepath
+Prelude
+Process
+Vim.Message
+ConcurrentProcess
+Vim.ViewTracer

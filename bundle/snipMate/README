@@ -1,0 +1,28 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2540
+
+snipMate.vim aims to be an unobtrusive, concise vim script that implements some of TextMate's snippets features in Vim. A snippet is a piece of often-typed text that you can insert into your document using a trigger word followed by a <tab>.
+
+For instance, in a C file using the default installation of snipMate.vim, if you type "for<tab>" in insert mode, it will expand a typical for loop in C:
+
+ for (i = 0; i < count; i++) {
+
+ }
+
+To go to the next item in the loop, simply <tab> over to it; if there is repeated code, such as the "i" variable in this example, you can simply start typing once it's highlighted and all the matches specified in the snippet will be updated.
+
+Requires Vim 7 or higher.
+For a quick introduction, see this screencast: http://vimeo.com/3535418
+For more help see the documentation that comes with snipMate in ~/.vim/doc/snipMate.txt.
+
+snipMate.vim has the following features among others:
+  - The syntax of snippets is very similar to TextMate's, allowing easy conversion.
+  - The position of the snippet is kept transparently (i.e., it does not use marks/placeholders inserted into the buffer), allowing you to escape out of an incomplete snippet, something particularly useful in Vim.
+  - Variables in snippets are updated as-you-type.
+  - Snippets can have multiple matches.
+  - Snippets can be out of order. For instance, in a do...while loop, the condition can be added before the code.
+
+Bug reports, feature requests, etc. are welcome and can be emailed to me or submitted on the issue tracker: http://code.google.com/p/snipmate/issues/list
+
+If you would like to watch the development of this plugin, you can also follow it on github: http://github.com/msanders/snipmate.vim
+
+Enjoy!
