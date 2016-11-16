@@ -1,4 +1,3 @@
-vmap <Leader>,       :Tabularize /,<CR>
 nmap <Leader>=       :Tabularize /=<CR>
 vmap <Leader>=       :Tabularize /=<CR>
 nmap <Leader>"       :Tabularize /"<CR>
@@ -9,8 +8,8 @@ nmap <Leader>(       :Tabularize /(<CR>
 vmap <Leader>(       :Tabularize /(<CR>
 nmap <Leader>)       :Tabularize /)<CR>
 vmap <Leader>)       :Tabularize /)<CR>
-nmap <Leader>;       :Tabularize /;<CR>
-vmap <Leader>;       :Tabularize /;<CR>
+nmap <Leader>;       :Tabularize /,<CR>
+vmap <Leader>;       :Tabularize /,<CR>
 nmap <Leader>[       :Tabularize /[<CR>
 vmap <Leader>[       :Tabularize /[<CR>
 nmap <Leader>]       :Tabularize /]<CR>

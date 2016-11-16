@@ -10,6 +10,8 @@ curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|
 ## 截图
 ![截图1](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/1.png)
 ![截图2](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/2.png)
+![截图3](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/3.png)
+![截图4](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/4.png)
 
 ## 被动技能
 - 各种自动补全(php、html、括号)
@@ -23,7 +25,6 @@ curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|
 ## 主动技能
 | 功能                        | 快捷键                                    | 备注           |
 | --------------------------- | ----------------------------------------- | -------------- |
-| 文件时光机                  | `<Leader>h`                               |                |
 | 目录树                      | `Tab`                                     |                |
 | 代码段补全                  | `Tab`                                     | 插入模式       |
 | tag列表                     | `<Leader>t`                               |                |

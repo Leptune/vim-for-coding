@@ -32,6 +32,9 @@ function! airline#init#bootstrap()
   call s:check_defined('g:airline_exclude_preview', 0)
   call s:check_defined('g:airline_gui_mode', airline#init#gui_mode())
 
+  let g:airline#util#async = v:version >= 800 && has('job')
+  let g:airline#util#is_windows = has('win32') || has('win64')
+
   call s:check_defined('g:airline_mode_map', {})
   call extend(g:airline_mode_map, {
         \ '__' : '------',
@@ -56,6 +59,8 @@ function! airline#init#bootstrap()
         \ 'wombat': 'wombat',
         \ 'zenburn': 'zenburn',
         \ 'solarized': 'solarized',
+        \ 'flattened': 'solarized',
+        \ '\CNeoSolarized': 'solarized',
         \ }, 'keep')
 
   call s:check_defined('g:airline_symbols', {})
@@ -97,7 +102,7 @@ function! airline#init#bootstrap()
   call airline#parts#define_function('ffenc', 'airline#parts#ffenc')
   call airline#parts#define_empty(['hunks', 'branch', 'obsession', 'tagbar', 'syntastic',
         \ 'eclim', 'whitespace','windowswap', 'ycm_error_count', 'ycm_warning_count',
-        \ 'neomake_error_count', 'neomake_warning_count'])
+        \ 'neomake_error_count', 'neomake_warning_count', 'ale_error_count', 'ale_warning_count'])
   call airline#parts#define_text('capslock', '')
 
   unlet g:airline#init#bootstrapping
@@ -141,10 +146,9 @@ function! airline#init#sections()
     endif
   endif
   if !exists('g:airline_section_error')
-    let g:airline_section_error = airline#section#create(['ycm_error_count', 'syntastic', 'eclim', 'neomake_error_count'])
+    let g:airline_section_error = airline#section#create(['ycm_error_count', 'syntastic', 'eclim', 'neomake_error_count', 'ale_error_count'])
   endif
   if !exists('g:airline_section_warning')
-    let g:airline_section_warning = airline#section#create(['ycm_warning_count',  'neomake_warning_count', 'whitespace'])
+    let g:airline_section_warning = airline#section#create(['ycm_warning_count',  'neomake_warning_count', 'ale_warning_count', 'whitespace'])
   endif
 endfunction
-

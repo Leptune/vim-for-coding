@@ -10,13 +10,13 @@ Plugin 'Shougo/neocomplcache.vim'   " 自动提示
 Plugin 'shawncplus/phpcomplete.vim' " 自动补全php
 Plugin 'alvan/vim-closetag'         " 自动补全html
 Plugin 'Raimondi/delimitMate'       " 自动补全括号
-Plugin 'fholgado/minibufexpl.vim'   " 编辑多个文件时显示标签
 Plugin 'joonty/vim-phpqa.git'       " 保存时自动检查php文件有无语法错误
-Plugin 'bling/vim-airline'          " 状态栏增强
+Plugin 'vim-airline/vim-airline'    " 状态栏增强
+Plugin 'vim-airline/vim-airline-themes' " 状态栏增强
 Plugin 'tomasr/molokai'             " 增加molokai主题
 Plugin 'christoomey/vim-tmux-navigator' " 让vim能兼容tmux
 " 主动技能
-Plugin 'sjl/gundo.vim'              " <Leader>h 文件时光机
+"Plugin 'sjl/gundo.vim'              " <Leader>h 文件时光机
 Plugin 'scrooloose/nerdtree'        " Tab 目录树
 Plugin 'snipMate'                   " Tab(插入模式) 代码段补全(自定义：~/.vim/bundle/snipMate/snippets)
 Plugin 'majutsushi/tagbar'          " <Leader>t tag列表
@@ -29,6 +29,7 @@ Plugin 'terryma/vim-expand-region'  " v/V 快速选择区域/取消选择区域
 Plugin 'thinca/vim-quickrun'        " <Leader>q 运行当前文件
 Plugin 'Lokaltog/vim-easymotion'    " <Leader><Leader>w/b/h/k/j/l 快速跳转
 Plugin 'terryma/vim-multiple-cursors' " ctrl-m 多光标操作
+Plugin 'rking/ag.vim'
 call vundle#end()
 filetype plugin indent on
 
@@ -38,7 +39,7 @@ let g:mapleader=','
 source ~/.vim/setting/ctrlp-funky.vim
 source ~/.vim/setting/ctrlp.vim
 source ~/.vim/setting/delimitMate.vim
-source ~/.vim/setting/gundo.vim
+"source ~/.vim/setting/gundo.vim
 source ~/.vim/setting/molokai.vim
 source ~/.vim/setting/neocomplcache.vim
 source ~/.vim/setting/NerdTree.vim
@@ -52,3 +53,4 @@ source ~/.vim/setting/vim-multiple-cursors.vim
 source ~/.vim/setting/vim-quickrun.vim
 " 自定义设置
 source ~/.vim/setting/custome.vim
+set runtimepath^=~/.vim/bundle/ag.vim
