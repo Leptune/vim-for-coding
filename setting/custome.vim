@@ -422,6 +422,7 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 map <C-n> :bnext<cr>
 map <C-p> :bprev<cr>
+map <C-w> :w<cr>
 " select all
 map <Leader>sa ggVG
 map <Leader>i :noh<cr>
@@ -495,3 +496,9 @@ imap <C-a> <Home>
 imap <C-e> <End>
 imap <C-d> <Del>
 
+" 保存时自动将tab转换为相应长度的空格
+" 此行禁止开启，否则会导致撤销到最新时保存后，无法重做！！！
+" autocmd BufWritePre * :%retab!
+
+" 设置为搜索时不要回卷
+set nowrapscan

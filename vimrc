@@ -9,8 +9,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'Shougo/neocomplcache.vim'   " 自动提示
 Plugin 'shawncplus/phpcomplete.vim' " 自动补全php
 Plugin 'alvan/vim-closetag'         " 自动补全html
-Plugin 'Raimondi/delimitMate'       " 自动补全括号
 Plugin 'joonty/vim-phpqa.git'       " 保存时自动检查php文件有无语法错误
+Plugin 'jiangmiao/auto-pairs'       " 自动补全括号
 Plugin 'vim-airline/vim-airline'    " 状态栏增强
 Plugin 'vim-airline/vim-airline-themes' " 状态栏增强
 Plugin 'tomasr/molokai'             " 增加molokai主题
