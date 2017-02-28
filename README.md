@@ -27,7 +27,7 @@ curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|
 | --------------------------- | ----------------------------------------- | -------------- |
 | 目录树                      | `Tab`                                     |                |
 | 代码段补全                  | `Tab`                                     | 插入模式       |
-| tag列表                     | `<Leader>t`                               |                |
+| tag列表                     | `<Leader>t`                               | Leader键为,    |
 | 快速对齐                    | `<Leader>符号`                            |                |
 | 快速注释/解开注             | `gcc`                                     |                |
 | html代码补全                | `<c-y>,`                                  |                |
