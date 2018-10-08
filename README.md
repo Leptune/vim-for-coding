@@ -31,7 +31,7 @@ curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|
 | 快速对齐                    | `<Leader>符号`                            |                |
 | 快速注释/解开注             | `gcc`                                     |                |
 | html代码补全                | `<c-y>,`                                  |                |
-| 快速打开文件                | `<c-u/e>/<`                               |                |
+| 快速打开文件                | `<c-u/e>`                               |                |
 | 快速搜索函数                | `<Leader>fu`                              |                |
 | 快速选择区域/取消选择区域   | `v/V`                                     |                |
 | 运行当前文件                | `<Leader>q`                               | 可用于调试文件 |
