@@ -91,6 +91,7 @@ curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|
 `<C-a>`      | `<Home>`                   | 插入模式下移动到行首
 `<C-e>`      | `<End>`                    | 插入模式下移动到行尾
 `<C-d>`      | `<Del>`                    | 插入模式下删除当前字符
+`<C-l>`      | `<C-x><C-o>`               | 插入模式下提示函数参数信息
 
 ## 注意事项
 - 该配置参考了 [wklken/vim-for-server](https://github.com/wklken/vim-for-server) 的配置
