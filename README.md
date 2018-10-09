@@ -2,7 +2,7 @@
 
 该vim配置拥有各种大气的被动和主动技能！！
 
-## 一键安装
+## 一分钟极速安装
 ```sh
 curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|sh
 ```
