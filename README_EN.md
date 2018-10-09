@@ -1,4 +1,4 @@
-# The exclusive vimrc configuration of the coding programer.
+# Amazing vimrc configuration for coding!
 
 The VIM configuration has a variety of excited usage!
 
