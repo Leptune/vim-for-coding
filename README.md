@@ -1,3 +1,5 @@
+# DOC FOR [ENGLISH](https://github.com/Leptune/vim-for-coding/blob/master/README_EN.md)
+
 # coding程序猿的专属vimrc配置!
 
 该vim配置拥有各种大气的被动和主动技能！！
