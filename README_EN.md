@@ -2,7 +2,7 @@
 
 The VIM configuration has a variety of excited usage!
 
-## One minute quick installed!
+## One minute quick installed! (if windows then install [BabunShell](https://github.com/babun/babun) first!)
 ```sh
 curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|sh
 ```
