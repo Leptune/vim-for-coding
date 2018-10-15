@@ -513,3 +513,13 @@ set nowrapscan
 " 设置选中背景
 hi Visual term=reverse cterm=reverse ctermbg=black guibg=grey60
 hi VisualNOS term=underline,bold cterm=underline,bold gui=underline,bold
+
+" 设置退出vim后，不显示文件内容
+if &term =~ "xterm"
+    " SecureCRT versions prior to 6.1.x do not support 4-digit DECSET
+    "    let &t_ti = "\<Esc>[?1049h"
+    "    let &t_te = "\<Esc>[?1049l"
+    " Use 2-digit DECSET instead
+    let &t_ti = "\<Esc>[?47h"
+    let &t_te = "\<Esc>[?47l"
+endif
