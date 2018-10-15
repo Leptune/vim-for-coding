@@ -509,3 +509,7 @@ imap <C-l> <C-x><C-o>
 
 " 设置为搜索时不要回卷
 set nowrapscan
+
+" 设置选中背景
+hi Visual term=reverse cterm=reverse ctermbg=black guibg=grey60
+hi VisualNOS term=underline,bold cterm=underline,bold gui=underline,bold
