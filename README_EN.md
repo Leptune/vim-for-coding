@@ -12,26 +12,42 @@ curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|
 ### muti_select
 ![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/muti_select.gif)
 
+---
+
 ### quick_jump
 ![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/quick_jump.gif)
+
+---
 
 ### quick_align
 ![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/quick_align.gif)
 
+---
+
 ### quick_search_function
 ![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/quick_search_function.gif)
+
+---
 
 ### quick_open_file
 ![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/quick_open_file.gif)
 
+---
+
 ### quick_run
 ![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/quick_run.gif)
+
+---
 
 ### auto_complete
 ![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/auto_complete.gif)
 
+---
+
 ### insert_mode_move_and_php_func_tips
 ![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/insert_mode_move_and_php_func_tips.gif)
+
+---
 
 ### list_dir_function
 ![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/list_dir_function.gif)
