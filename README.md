@@ -10,10 +10,10 @@ curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|
 ```
 
 ## 截图
-![截图1](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/1.png)
-![截图2](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/2.png)
-![截图3](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/3.png)
-![截图4](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/4.png)
+* 多选
+![](http://ou1v52snu.bkt.clouddn.com/muti_select.gif)
+* 快速跳转
+![](http://ou1v52snu.bkt.clouddn.com/quick_jump.gif)
 
 ## 被动技能
 - 各种自动补全(php、html、括号)
