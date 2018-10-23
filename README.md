@@ -11,9 +11,9 @@ curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|
 
 ## 截图
 * 多选
-![](http://ou1v52snu.bkt.clouddn.com/muti_select.gif)
+![img](http://ou1v52snu.bkt.clouddn.com/muti_select.gif)
 * 快速跳转
-![](http://ou1v52snu.bkt.clouddn.com/quick_jump.gif)
+![img](http://ou1v52snu.bkt.clouddn.com/quick_jump.gif)
 
 ## 被动技能
 - 各种自动补全(php、html、括号)
