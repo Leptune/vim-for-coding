@@ -12,31 +12,46 @@ curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|
 ## 截图
 
 ### 多选
-![img](http://ou1v52snu.bkt.clouddn.com/muti_select.gif)
+![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/muti_select.gif)
+
+---
 
 ### 快速跳转
-![img](http://ou1v52snu.bkt.clouddn.com/quick_jump.gif)
+![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/quick_jump.gif)
+
+---
 
 ### 快速对齐
-![img](http://ou1v52snu.bkt.clouddn.com/quick_align.gif)
+![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/quick_align.gif)
+
+---
 
 ### 快速搜索函数
-![img](http://ou1v52snu.bkt.clouddn.com/quick_search_function.gif)
+![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/quick_search_function.gif)
+
+---
 
 ### 快速打开文件
-![img](http://ou1v52snu.bkt.clouddn.com/quick_open_file.gif)
+![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/quick_open_file.gif)
+
+---
 
 ### 快速运行文件
-![img](http://ou1v52snu.bkt.clouddn.com/quick_run.gif)
+![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/quick_run.gif)
+
+---
 
 ### 自动补全
-![img](http://ou1v52snu.bkt.clouddn.com/auto_complete.gif)
+![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/auto_complete.gif)
+
+---
 
 ### 插入模式下快速移动以及php函数提示
-![img](http://ou1v52snu.bkt.clouddn.com/insert_mode_move_and_php_func_tips.gif)
+![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/insert_mode_move_and_php_func_tips.gif)
 
 ### 浏览文件目录和tags
-![img](http://ou1v52snu.bkt.clouddn.com/list_dir_function.gif)
+![img](https://raw.githubusercontent.com/Leptune/vim-for-coding/master/screenshots/list_dir_function.gif)
+
 
 ## 被动技能
 - 各种自动补全(php、html、括号)
