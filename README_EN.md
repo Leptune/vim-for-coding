@@ -7,6 +7,15 @@ The VIM configuration has a variety of excited usage!
 curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|sh
 ```
 
+## Quick Uninstall
+```sh
+cd ~
+rm -rf .vim
+rm -rf .vimrc
+mv .vimbak .vim &>/dev/null
+mv .vimrcbak .vimrc &> /dev/null
+```
+
 ## screenshots
 
 ### muti_select
