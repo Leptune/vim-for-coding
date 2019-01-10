@@ -9,6 +9,15 @@
 curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|sh
 ```
 
+## 极速卸载
+```sh
+cd ~
+rm -rf .vim
+rm -rf .vimrc
+mv .vimbak .vim &>/dev/null
+mv .vimrcbak .vimrc &> /dev/null
+```
+
 ## 截图
 
 ### 多选
