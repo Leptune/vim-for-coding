@@ -440,7 +440,7 @@ map <leader>0 :blast<cr>
 map <leader>d :bd<cr>
 
 " 快速运行当前php文件
-map <leader>r :!php %<cr>
+" map <leader>r :!php %<cr>
 
 " 复制选中区到系统剪切板中
 vnoremap <leader>y "+y
