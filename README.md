@@ -4,7 +4,7 @@
 
 该vim配置拥有各种大气的被动和主动技能！！
 
-## 一分钟极速安装 (如果是windows需要先安装[BabunShell](https://github.com/babun/babun))
+## 一分钟极速安装 (如果是windows，强烈推荐安装[BabunShell](https://github.com/babun/babun))
 ```sh
 curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|sh
 ```
