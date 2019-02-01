@@ -18,7 +18,7 @@ mv .vimbak .vim &>/dev/null
 mv .vimrcbak .vimrc &> /dev/null
 ```
 
-## 截图
+## 截图（最常用快捷键和功能）
 
 ### 多选 （`<ctrl>m`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/muti_select.gif)
