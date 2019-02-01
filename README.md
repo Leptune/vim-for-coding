@@ -20,45 +20,45 @@ mv .vimrcbak .vimrc &> /dev/null
 
 ## 截图
 
-### 多选
+### 多选 （`ctrl+m`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/muti_select.gif)
 
 ---
 
-### 快速跳转
+### 快速跳转（`,+,+h/j/k/l`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/quick_jump.gif)
 
 ---
 
-### 快速对齐
+### 快速对齐（`,=`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/quick_align.gif)
 
 ---
 
-### 快速搜索函数
+### 快速搜索函数（`,fu`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/quick_search_function.gif)
 
 ---
 
-### 快速打开文件
+### 快速打开文件（`ctrl+u`：在所有文件中打开，`ctrl+e`：在最近的文件中打开）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/quick_open_file.gif)
 
 ---
 
-### 快速运行文件
+### 快速运行文件（`,+q`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/quick_run.gif)
 
 ---
 
-### 自动补全
+### 自动补全（`Tab`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/auto_complete.gif)
 
 ---
 
-### 插入模式下快速移动以及php函数提示
+### 插入模式下快速移动以及php函数提示（`ctrl+b/f/j/k/e/a`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/insert_mode_move_and_php_func_tips.gif)
 
-### 浏览文件目录和tags
+### 浏览文件目录和tags（`Tab`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/list_dir_function.gif)
 
 
@@ -72,6 +72,9 @@ mv .vimrcbak .vimrc &> /dev/null
 - 每次保存，都会自动在后台重新索引tags，而且不卡不顿！(必须装ctags)
 
 ## 主动技能
+
+>- 说明：`<leader>`键为`,`键
+
 | 功能                        | 快捷键                                    | 备注           |
 | --------------------------- | ----------------------------------------- | -------------- |
 | 目录树                      | `Tab`                                     |                |
