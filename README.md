@@ -111,7 +111,6 @@ mv .vimrcbak .vimrc &> /dev/null
 `<leader>8`  | `:b8<cr>`                  | 跳转到标签8
 `<leader>9`  | `:b9<cr>`                  | 跳转到标签9
 `<leader>0`  | `:blast<cr>`               | 跳转到标签0
-`<leader>r`  | `:!php %<cr>`              | 快速运行当前php文件
 `<leader>d`  | `:bd<cr>`                  | 移除当前标签
 `<leader>y`  | `"+y`                      | 选中区域复制到系统剪贴板
 `leader>v`   | ``V`}``                    | 选中当前区块
