@@ -18,47 +18,47 @@ mv .vimrcbak .vimrc &> /dev/null
 
 ## screenshots
 
-### muti_select
+### muti_select（`<ctrl>m`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/muti_select.gif)
 
 ---
 
-### quick_jump
+### quick_jump（`,,h/j/k/l`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/quick_jump.gif)
 
 ---
 
-### quick_align
+### quick_align（`,=`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/quick_align.gif)
 
 ---
 
-### quick_search_function
+### quick_search_function（`,fu`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/quick_search_function.gif)
 
 ---
 
-### quick_open_file
+### quick_open_file（`<ctrl>u/e`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/quick_open_file.gif)
 
 ---
 
-### quick_run
+### quick_run（`,q`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/quick_run.gif)
 
 ---
 
-### auto_complete
+### auto_complete（`<tab>`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/auto_complete.gif)
 
 ---
 
-### insert_mode_move_and_php_func_tips
+### insert_mode_move_and_php_func_tips（`<ctr>b/f/j/k/e/a`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/insert_mode_move_and_php_func_tips.gif)
 
 ---
 
-### list_dir_function
+### list_dir_function（`<tab>`）
 ![img](https://raw.githubusercontent.com/Leptune/gif/master/screenshots/list_dir_function.gif)
 
 
