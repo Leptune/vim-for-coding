@@ -19,47 +19,47 @@ mv .vimrcbak .vimrc &> /dev/null
 ## screenshots
 
 ### muti_select（`<ctrl>m`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/muti_select.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/muti_select.gif)
 
 ---
 
 ### quick_jump（`,,h/j/k/l`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_jump.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_jump.gif)
 
 ---
 
 ### quick_align（`,=`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_align.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_align.gif)
 
 ---
 
 ### quick_search_function（`,fu`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_search_function.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_search_function.gif)
 
 ---
 
 ### quick_open_file（`<ctrl>u/e`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_open_file.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_open_file.gif)
 
 ---
 
 ### quick_run（`,q`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_run.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_run.gif)
 
 ---
 
 ### auto_complete（`<tab>`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/auto_complete.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/auto_complete.gif)
 
 ---
 
 ### insert_mode_move_and_php_func_tips（`<ctr>b/f/j/k/e/a`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/insert_mode_move_and_php_func_tips.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/insert_mode_move_and_php_func_tips.gif)
 
 ---
 
 ### list_dir_function（`<tab>`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/list_dir_function.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/list_dir_function.gif)
 
 
 ## Passive skills
