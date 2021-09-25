@@ -21,45 +21,45 @@ mv .vimrcbak .vimrc &> /dev/null
 ## 截图（最常用快捷键和功能）
 
 ### 多选 （`<ctrl>m`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/muti_select.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/muti_select.gif)
 
 ---
 
 ### 快速跳转（`,,h/j/k/l`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_jump.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_jump.gif)
 
 ---
 
 ### 快速对齐（`,=`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_align.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_align.gif)
 
 ---
 
 ### 快速搜索函数（`,fu`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_search_function.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_search_function.gif)
 
 ---
 
 ### 快速打开文件（`<ctrl>u`：在所有文件中打开，`<ctrl>e`：在最近的文件中打开）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_open_file.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_open_file.gif)
 
 ---
 
 ### 快速运行文件（`,q`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/quick_run.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_run.gif)
 
 ---
 
 ### 自动补全（`<tab>`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/auto_complete.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/auto_complete.gif)
 
 ---
 
 ### 插入模式下快速移动以及php函数提示（`<ctr>b/f/j/k/e/a`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/insert_mode_move_and_php_func_tips.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/insert_mode_move_and_php_func_tips.gif)
 
 ### 浏览文件目录和tags（`<tab>`）
-![img](http://nz-img.oss-cn-hangzhou.aliyuncs.com/screenshots/list_dir_function.gif)
+![img](https://gitee.com/lee1989/gif/raw/master/screenshots/list_dir_function.gif)
 
 
 ## 被动技能
