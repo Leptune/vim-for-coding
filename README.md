@@ -69,7 +69,6 @@ mv .vimrcbak .vimrc &> /dev/null
 - 状态栏增强
 - 增加molokai主题
 - 让vim能兼容tmux
-- 每次保存，都会自动在后台重新索引tags，而且不卡不顿！(必须装ctags)
 
 ## 主动技能
 
