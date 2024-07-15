@@ -406,11 +406,6 @@ highlight SpellRare term=underline cterm=underline
 highlight clear SpellLocal
 highlight SpellLocal term=underline cterm=underline
 
-set tags+=.tags
-" 每次保存自动生成tags
-" 如启动报错，请先安装ctags
-" 跳转快捷键：<ctrl-]>跳转 <ctrl-t>返回
-au BufWritePost *.c,*.cpp,*.h,*.php,*.json,*.erl,*.sh,*.html,*.css,*.conf silent! !(ps -ef|grep ctags|grep -v grep|awk '{print $2}'|xargs -I{} kill -9 {}; rm -f .ctags1; ctags -Rf .tags1 --exclude='*.js' && mv -f .tags1 .tags) &> /dev/null &
 set ai si ci
 
 "--------------------------自定义快捷键---------------------
