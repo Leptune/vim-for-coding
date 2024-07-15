@@ -69,7 +69,6 @@ mv .vimrcbak .vimrc &> /dev/null
 - status bar enhancement
 - increase the Molokai theme.
 - make VIM compatible with TMUX
-- each save will automatically index tags in the background, and it will not be stuck. (ctags must be installed)
 
 ## Active skills
 | Usage                       |  Shortcut key                             | Remark           |
