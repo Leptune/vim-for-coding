@@ -13,7 +13,7 @@ This vim configuration comes with a variety of impressive passive and active ski
 
 ## One-Minute Quick Installation (For Windows, we strongly recommend installing [BabunShell](https://github.com/babun/babun))
 ```sh
-curl 'https://gitee.com/lee1989/vim-for-coding/raw/master/install.sh' | sh
+curl 'https://raw.githubusercontent.com/Leptune/vim-for-coding/refs/heads/master/install.sh' | sh
 ```
 
 ## Quick Uninstall
