@@ -2,6 +2,14 @@
 
 The VIM configuration has a variety of excited usage!
 
+## If Git is not installed, please install it first.
+
+* Install on CentOS: `sudo yum -y install git`
+  
+* Install on Ubuntu: `sudo apt install git`
+  
+* Install on Mac: `brew install git`
+
 ## One minute quick installed! (if windows then install [BabunShell](https://github.com/babun/babun) first!)
 ```sh
 curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|sh
