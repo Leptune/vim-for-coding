@@ -1,6 +1,7 @@
-# Amazing vimrc configuration for coding!
 
-The VIM configuration has a variety of excited usage!
+# Exclusive vimrc configuration for coding developers!
+
+This vim configuration comes with a variety of impressive passive and active skills!
 
 ## If Git is not installed, please install it first.
 
@@ -10,9 +11,9 @@ The VIM configuration has a variety of excited usage!
   
 * Install on Mac: `brew install git`
 
-## One minute quick installed! (if windows then install [BabunShell](https://github.com/babun/babun) first!)
+## One-Minute Quick Installation (For Windows, we strongly recommend installing [BabunShell](https://github.com/babun/babun))
 ```sh
-curl https://raw.githubusercontent.com/Leptune/vim-for-coding/master/install.sh|sh
+curl 'https://gitee.com/lee1989/vim-for-coding/raw/master/install.sh' | sh
 ```
 
 ## Quick Uninstall
@@ -24,128 +25,133 @@ mv .vimbak .vim &>/dev/null
 mv .vimrcbak .vimrc &> /dev/null
 ```
 
-## screenshots
+## Screenshots (Most Common Shortcuts and Functions)
 
-### muti_select（`<ctrl>m`）
+### Multi-Select (`<ctrl>m`)
 ![img](https://gitee.com/lee1989/gif/raw/master/screenshots/muti_select.gif)
 
 ---
 
-### quick_jump（`,,h/j/k/l`）
+### Quick Jump (`,,h/j/k/l`)
 ![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_jump.gif)
 
 ---
 
-### quick_align（`,=`）
+### Quick Align (`,=`)
 ![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_align.gif)
 
 ---
 
-### quick_search_function（`,fu`）
+### Quick Search Function (`,fu`)
 ![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_search_function.gif)
 
 ---
 
-### quick_open_file（`<ctrl>u/e`）
+### Quick Open File (`<ctrl>u`: open in all files, `<ctrl>e`: open in recent files)
 ![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_open_file.gif)
 
 ---
 
-### quick_run（`,q`）
+### Quick Run File (`,q`)
 ![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_run.gif)
 
 ---
 
-### auto_complete（`<tab>`）
+### Auto-Completion (`<tab>`)
 ![img](https://gitee.com/lee1989/gif/raw/master/screenshots/auto_complete.gif)
 
 ---
 
-### insert_mode_move_and_php_func_tips（`<ctr>b/f/j/k/e/a`）
+### Quick Movement in Insert Mode and PHP Function Suggestions (`<ctrl>b/f/j/k/e/a`)
 ![img](https://gitee.com/lee1989/gif/raw/master/screenshots/insert_mode_move_and_php_func_tips.gif)
 
----
-
-### list_dir_function（`<tab>`）
+### Browse File Directories and Tags (`<tab>`)
 ![img](https://gitee.com/lee1989/gif/raw/master/screenshots/list_dir_function.gif)
 
+## Passive Skills
+- Various auto-completions (PHP, HTML, parentheses)
+- Display tabs when editing multiple files
+- Automatically check PHP files for syntax errors on save
+- Enhanced status bar
+- Added Molokai theme
+- Ensure vim compatibility with tmux
 
-## Passive skills
-- various auto completion (PHP, HTML, parenthesis)
-- display labels when editing multiple files
-- automatically check if there is any syntax error in the PHP file when saving.
-- status bar enhancement
-- increase the Molokai theme.
-- make VIM compatible with TMUX
+## Active Skills
 
-## Active skills
-| Usage                       |  Shortcut key                             | Remark           |
-| --------------------------- | ----------------------------------------- | -------------- |
-| Directory tree              | `Tab`                                     |                |
-| Code Auto Completion        | `Tab`                                     | Insert Mode       |
-| Tag List                    | `<Leader>t`                               | Leader is ,    |
-| Quick Align               | `<Leader>character`                       |                |
-| Quick Comment             | `gcc`                                     |                |
-| Html Code Complete          | `<c-y>,`                                  |                |
-| Quick Open File                | `<c-u/e>`                               |                |
-| Quick Search Function       | `<Leader>fu`                              |                |
-| Quick Select zone/Cancel Select Zone   | `v/V`                                     |                |
-| Run Current File           | `<Leader>q`                               | Use For Debug |
-| Quick Jump                    | `<Leader><Leader>w/b/h/k/j/l`             |                |
-| Multi Select                  | `ctrl-m `                                 |                |
+>- Note: The `<leader>` key is the `,` key
 
-## Custom Shortcut Key
-Shortcut Key       | Mapping to           | Description
-:-:          | :-:                        | :-:
-`Y`          | `$`                        | copy to the end of the line.
-`<space>`    | `/`                        | Search
-`<C-j>`      | `<C-W>j`                   | jump to the window below
-`<C-k>`      | `<C-W>k`                   | jump to the window top
-`<C-h>`      | `<C-W>h`                   | jump to the window left
-`<C-l>`      | `<C-W>l`                   | jump to the window right
-`<C-n>`      | `:bnext<cr>`               | jump to the next tag
-`<C-p>`      | `:bprev<cr>`               | jump to the prev tag
-`<Leader>sa` | `ggVG`                     | All Select
-`<Leader>i`  | `:noh<cr>`                 | Cancel hightlight
-`<leader>zz` | `:call ToggleFold()<cr>`   | Toggle/NoToggle
-`<leader>1`  | `:bfirst<cr>`              | jump to the first tag
-`<leader>2`  | `:b2<cr>`                  | jump to the second tag
-`<leader>3`  | `:b3<cr>`                  | 
-`<leader>4`  | `:b4<cr>`                  | 
-`<leader>5`  | `:b5<cr>`                  | 
-`<leader>6`  | `:b6<cr>`                  | 
-`<leader>7`  | `:b7<cr>`                  | 
-`<leader>8`  | `:b8<cr>`                  | 
-`<leader>9`  | `:b9<cr>`                  | 
-`<leader>0`  | `:blast<cr>`               | 
-`<leader>d`  | `:bd<cr>`                  | Remove Current Tag
-`<leader>y`  | `"+y`                      | Select Zone Copy to System clipboard
-`<leader>w`  | `:w<CR>`                   | Quick Save
-`<leader>ev` | `:e $MYVIMRC<CR>`          | Quick Edit vimrc file
-`<leader>sv` | `:so $MYVIMRC<CR>`         | Quick Load vimrc file
-`<F1>`       | `<Esc>`                    | Press F1 not open help center
-`<F2>`       | `:call HideNumber()<CR>`   | show/hide line number
-`<F3>`       | `:set list! list?<CR>`     | show/hide printable symbols
-`<F4>`       | `:set wrap! wrap?<CR>`     | open/close wrap
-`<F6>`       | `:exec exists('syntax_on') ? 'syn off' : 'syn on'<CR>`  | Open/Close Sytax Check(Close for speeding open huge file)
-`<F7>`       |                            | open/close paste mode
-`H`          | `^`                        | Quick jump to top of line
-`L`          | `$`                        | Quick jump to end of line
-`;`          | `:`                        | exec vim command
-`<C-a>`      | `<Home>`                   | vim command mode jump to top of line
-`/`          | `/\v`                      | Search
-`<`          | `<gv`                      | move select zone to left
-`>`          | `>gv`                      | move select zone to right
-`w!!`        | `w !sudo tee >/dev/null %` | Force write with root user
-`U`          | `<C-r>`                    | Redo
-`<C-b>`      | `<Left>`                   | Insert Mode move to left
-`<C-j>`      | `<Down>`                   | Insert Mode move to down
-`<C-k>`      | `<Up>`                     | Insert Mode move to up
-`<C-f>`      | `<Right>`                  | Insert Mode move to right
-`<C-a>`      | `<Home>`                   | Insert Mode move to line of head
-`<C-e>`      | `<End>`                    | Insert Mode move to line of foot
-`<C-d>`      | `<Del>`                    | Insert Mode del character
-`<C-l>`      | `<C-x><C-o>`               | Insert Mode tips function infos
+| Function                   | Shortcut                                   | Remarks          |
+| -------------------------- | ------------------------------------------ | ---------------- |
+| Directory Tree             | `Tab`                                      |                  |
+| Code Snippet Completion     | `Tab`                                      | In insert mode    |
+| Tag List                   | `<Leader>t`                                | Leader key is ,   |
+| Quick Align                | `<Leader>symbol`                           |                  |
+| Quick Comment/Uncomment    | `gcc`                                      |                  |
+| HTML Code Completion       | `<c-y>,`                                   |                  |
+| Quick Open File            | `<c-u/e>`                                  |                  |
+| Quick Search Function      | `<Leader>fu`                               |                  |
+| Quick Select/Deselect Area | `v/V`                                      |                  |
+| Run Current File           | `<Leader>q`                                | Can be used for debugging |
+| Quick Jump                 | `<Leader><Leader>w/b/h/k/j/l`             |                  |
+| Multi-Cursor Operations    | `ctrl-m`                                   |                  |
+
+## Custom Shortcuts
+Shortcut      | Mapped To               | Function Description
+:-:           | :-:                    | :-:
+`Y`           | `$`                    | Copy to end of line
+`<space>`     | `/`                    | Search
+`<C-j>`       | `<C-W>j`              | Jump to the window below
+`<C-k>`       | `<C-W>k`              | Jump to the window above
+`<C-h>`       | `<C-W>h`              | Jump to the left window
+`<C-l>`       | `<C-W>l`              | Jump to the right window
+`<C-n>`       | `:bnext<cr>`          | Jump to the next tab
+`<C-p>`       | `:bprev<cr>`          | Jump to the previous tab
+`<Leader>sa`  | `ggVG`                 | Select all
+`<Leader>i`   | `:noh<cr>`            | Cancel highlighting
+`<leader>zz`  | `:call ToggleFold()<cr>` | Fold/Unfold
+`<leader>1`   | `:bfirst<cr>`         | Jump to first tab
+`<leader>2`   | `:b2<cr>`             | Jump to tab 2
+`<leader>3`   | `:b3<cr>`             | Jump to tab 3
+`<leader>4`   | `:b4<cr>`             | Jump to tab 4
+`<leader>5`   | `:b5<cr>`             | Jump to tab 5
+`<leader>6`   | `:b6<cr>`             | Jump to tab 6
+`<leader>7`   | `:b7<cr>`             | Jump to tab 7
+`<leader>8`   | `:b8<cr>`             | Jump to tab 8
+`<leader>9`   | `:b9<cr>`             | Jump to tab 9
+`<leader>0`   | `:blast<cr>`          | Jump to tab 0
+`<leader>d`   | `:bd<cr>`             | Remove current tab
+`<leader>y`   | `"+y`                 | Copy selected area to clipboard
+`<leader>v`   | ``V`}``               | Select current block
+`<leader>w`   | `:w<CR>`              | Quick save
+`<leader>ev`  | `:e $MYVIMRC<CR>`     | Quick edit vim configuration file
+`<leader>sv`  | `:so $MYVIMRC<CR>`    | Quick reload vim configuration file
+`<F1>`        | `<Esc>`               | Cancel help window triggered by F1
+`<F2>`        | `:call HideNumber()<CR>` | Show/Hide line numbers
+`<F3>`        | `:set list! list?<CR>` | Show/Hide printable characters
+`<F4>`        | `:set wrap! wrap?<CR>` | Toggle line wrapping
+`<F6>`        | `:exec exists('syntax_on') ? 'syn off' : 'syn on'<CR>` | Toggle syntax checking (turning off can speed up large file display)
+`<F7>`        |                         | Toggle paste mode (when off, code can be pasted as is)
+`H`           | `^`                    | Quick jump to the beginning of the line
+`L`           | `$`                    | Quick jump to the end of the line
+`;`           | `:`                    | Execute vim command
+`<C-a>`       | `<Home>`               | Jump to the beginning of the line in command mode
+`/`           | `/\v`                  | (Normal/Visual) mode search
+`<`           | `<gv`                  | Move selection right while keeping it selected
+`>`           | `>gv`                  | Move selection left while keeping it selected
+`w!!`         | `w !sudo tee >/dev/null %` | Force write (write with root privileges)
+`U`           | `<C-r>`                | Redo
+`<C-b>`       | `<Left>`               | Move left in insert mode
+`<C-j>`       | `<Down>`               | Move down in insert mode
+`<C-k>`       | `<Up>`                 | Move up in insert mode
+`<C-f>`       | `<Right>`              | Move right in insert mode
+`<C-a>`       | `<Home>`               | Move to the beginning of the line in insert mode
+`<C-e>`       | `<End>`                | Move to the end of the line in insert mode
+`<C-d>`       | `<Del>`                | Delete current character in insert mode
+`<C-l>`       | `<C-x><C-o>`          | Suggest function parameters in insert mode
+
+## Notes
+- This configuration is based on [wklken/vim-for-server](https://github.com/wklken/vim-for-server).
+- For detailed configuration, please check the vimrc file!
 
 ## License
-Whatever
+Do whatever you want!
