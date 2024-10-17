@@ -3,7 +3,7 @@
 **This article is also posted on `CSDN`: [向阳是我](https://blog.csdn.net/leptune99)**  
 **Welcome to visit!**
 
-**DOCUMENT FOR [ENGLISH](https://github.com/Leptune/vim-for-coding/blob/master/README_EN.md)**
+**DOCUMENT FOR [中文](https://github.com/Leptune/vim-for-coding)**
 
 **Exclusive vimrc configuration for coders**
 
