@@ -1,24 +1,26 @@
-# 1. 简单介绍
+# 1. Simple Introduction
 
-**本文也发到`CSDN`：[向阳是我](https://blog.csdn.net/leptune99)**
-**欢迎来访～**
+**This article is also posted on `CSDN`: [向阳是我](https://blog.csdn.net/leptune99)**  
+**Welcome to visit!**
 
 **DOCUMENT FOR [ENGLISH](https://github.com/Leptune/vim-for-coding/blob/master/README_EN.md)**
 
-**coding程序猿的专属vimrc配置**
+**Exclusive vimrc configuration for coders**
 
-该vim配置拥有各种大气的被动和主动技能！！
+This vim configuration has various atmospheric passive and active skills!!
 
-**如果没有安装git，请先安装：**
-* Centos安装：`sudo yum -y install git`
-* Ubuntu安装：`sudo apt install git`
-* Mac安装：`brew install git`
-# 2. 一分钟极速安装 
-(如果是windows，强烈推荐安装[BabunShell](https://github.com/babun/babun))
+**If you haven't installed git, please install it first:**  
+* Install on CentOS: `sudo yum -y install git`  
+* Install on Ubuntu: `sudo apt install git`  
+* Install on Mac: `brew install git`  
+
+# 2. One-Minute Quick Installation  
+(For Windows, we strongly recommend installing [BabunShell](https://github.com/babun/babun))  
 ```sh
 curl 'https://gitee.com/lee1989/vim-for-coding/raw/master/install.sh' | sh
 ```
-# 3. 极速卸载
+
+# 3. Quick Uninstallation  
 ```sh
 cd ~
 rm -rf .vim
@@ -26,132 +28,135 @@ rm -rf .vimrc
 mv .vimbak .vim &>/dev/null
 mv .vimrcbak .vimrc &> /dev/null
 ```
-# 4.截图（最常用快捷键和功能）
-## 4.1 多选 （`<ctrl>m`）
-![img](https://img-blog.csdnimg.cn/img_convert/e28fd7ab92633d6572fc5453f7c030b8.gif)
+
+# 4. Screenshots (Most Used Shortcuts and Functions)  
+## 4.1 Multiple Selection (`<ctrl>m`)  
+![img](https://img-blog.csdnimg.cn/img_convert/e28fd7ab92633d6572fc5453f7c030b8.gif)  
 
 ---
 
-## 4.2 快速跳转（`,,h/j/k/l`）
-![img](https://img-blog.csdnimg.cn/img_convert/5f9e43fbdb9f20d4ad4cc1b0df03deb4.gif)
+## 4.2 Quick Jump (`,,h/j/k/l`)  
+![img](https://img-blog.csdnimg.cn/img_convert/5f9e43fbdb9f20d4ad4cc1b0df03deb4.gif)  
 
 ---
 
-## 4.3 快速对齐（`,=`）
-![img](https://img-blog.csdnimg.cn/img_convert/7da9fa89d813ac727759706e383971a8.gif)
+## 4.3 Quick Alignment (`,=`)  
+![img](https://img-blog.csdnimg.cn/img_convert/7da9fa89d813ac727759706e383971a8.gif)  
 
 ---
 
-## 4.4 快速搜索函数（`,fu`）
-![img](https://img-blog.csdnimg.cn/img_convert/8426f5a079631fd1304798de13bd2f86.gif)
+## 4.4 Quick Search Function (`,fu`)  
+![img](https://img-blog.csdnimg.cn/img_convert/8426f5a079631fd1304798de13bd2f86.gif)  
 
 ---
 
-## 4.5 快速打开文件（`<ctrl>u`：在所有文件中打开，`<ctrl>e`：在最近的文件中打开）
-![img](https://img-blog.csdnimg.cn/img_convert/04a5ae0e4193a2aa903cd07c00a22b70.gif)
+## 4.5 Quick Open File (`<ctrl>u`: Open in all files, `<ctrl>e`: Open in recent files)  
+![img](https://img-blog.csdnimg.cn/img_convert/04a5ae0e4193a2aa903cd07c00a22b70.gif)  
 
 ---
 
-## 4.6 快速运行文件（`,q`）
-![img](https://img-blog.csdnimg.cn/img_convert/04c71ca601c18ab77a441615c941a284.gif)
+## 4.6 Quick Run File (`,q`)  
+![img](https://img-blog.csdnimg.cn/img_convert/04c71ca601c18ab77a441615c941a284.gif)  
 
 ---
 
-## 4.7 自动补全（`<tab>`）
-![img](https://img-blog.csdnimg.cn/img_convert/4fe8ec590b6dbc2bed64d8e561e1cf0b.gif)
+## 4.7 Auto Completion (`<tab>`)  
+![img](https://img-blog.csdnimg.cn/img_convert/4fe8ec590b6dbc2bed64d8e561e1cf0b.gif)  
 
 ---
 
-## 4.8 插入模式下快速移动以及php函数提示（`<ctr>b/f/j/k/e/a`）
-![img](https://img-blog.csdnimg.cn/img_convert/68521770ae4b2b4ae7ba219038651792.gif)
+## 4.8 Quick Movement in Insert Mode and PHP Function Suggestions (`<ctr>b/f/j/k/e/a`)  
+![img](https://img-blog.csdnimg.cn/img_convert/68521770ae4b2b4ae7ba219038651792.gif)  
 
-## 4.9 浏览文件目录和tags（`<tab>`）
-![img](https://img-blog.csdnimg.cn/img_convert/a29894b409c3fecf5ef5ebb6218919d8.gif)
-# 5. 被动技能
-- 各种自动补全(php、html、括号)
-- 编辑多个文件时显示标签
-- 保存时自动检查php文件有无语法错误
-- 状态栏增强
-- 增加molokai主题
-- 让vim能兼容tmux
+## 4.9 Browse File Directory and Tags (`<tab>`)  
+![img](https://img-blog.csdnimg.cn/img_convert/a29894b409c3fecf5ef5ebb6218919d8.gif)  
 
-# 6. 主动技能
+# 5. Passive Skills
+- Various auto completions (php, html, parentheses)
+- Display tags when editing multiple files
+- Automatically check PHP syntax errors when saving
+- Enhanced status bar
+- Added molokai theme
+- Make vim compatible with tmux
 
->- 说明：`<leader>`键为`,`键
+# 6. Active Skills
 
-| 功能                        | 快捷键                                    | 备注           |
-| --------------------------- | ----------------------------------------- | -------------- |
-| 目录树                      | `Tab`                                     |                |
-| 代码段补全                  | `Tab`                                     | 插入模式       |
-| tag列表                     | `<Leader>t`                               | Leader键为,    |
-| 快速对齐                    | `<Leader>符号`                            |                |
-| 快速注释/解开注             | `gcc`                                     |                |
-| html代码补全                | `<c-y>,`                                  |                |
-| 快速打开文件                | `<c-u/e>`                               |                |
-| 快速搜索函数                | `<Leader>fu`                              |                |
-| 快速选择区域/取消选择区域   | `v/V`                                     |                |
-| 运行当前文件                | `<Leader>q`                               | 可用于调试文件 |
-| 快速跳转                    | `<Leader><Leader>w/b/h/k/j/l`             |                |
-| 多光标操作                  | `ctrl-m `                                 |                |
+>- Note: The `<leader>` key is the `,` key
 
-# 7. 自定义快捷键
-快捷键       | 映射为                     | 功能说明
-:-:          | :-:                        | :-:
-`Y`          | `$`                        | 复制到行尾
-`<space>`    | `/`                        | 搜索
-`<C-j>`      | `<C-W>j`                   | 跳转到下面的窗口
-`<C-k>`      | `<C-W>k`                   | 跳转到上面的窗口
-`<C-h>`      | `<C-W>h`                   | 跳转到左边的窗口
-`<C-l>`      | `<C-W>l`                   | 跳转到右边的窗口
-`<C-n>`      | `:bnext<cr>`               | 跳转到下一个标签
-`<C-p>`      | `:bprev<cr>`               | 跳转到上一个标签
-`<Leader>sa` | `ggVG`                     | 全选
-`<Leader>i`  | `:noh<cr>`                 | 取消高亮
-`<leader>zz` | `:call ToggleFold()<cr>`   | 折叠/反折叠
-`<leader>1`  | `:bfirst<cr>`              | 跳转到第一个标签
-`<leader>2`  | `:b2<cr>`                  | 跳转到标签2
-`<leader>3`  | `:b3<cr>`                  | 跳转到标签3
-`<leader>4`  | `:b4<cr>`                  | 跳转到标签4
-`<leader>5`  | `:b5<cr>`                  | 跳转到标签5
-`<leader>6`  | `:b6<cr>`                  | 跳转到标签6
-`<leader>7`  | `:b7<cr>`                  | 跳转到标签7
-`<leader>8`  | `:b8<cr>`                  | 跳转到标签8
-`<leader>9`  | `:b9<cr>`                  | 跳转到标签9
-`<leader>0`  | `:blast<cr>`               | 跳转到标签0
-`<leader>d`  | `:bd<cr>`                  | 移除当前标签
-`<leader>y`  | `"+y`                      | 选中区域复制到系统剪贴板
-`leader>v`   | ``V`}``                    | 选中当前区块
-`<leader>w`  | `:w<CR>`                   | 快速保存
-`<leader>ev` | `:e $MYVIMRC<CR>`          | 快速编辑vim配置文件
-`<leader>sv` | `:so $MYVIMRC<CR>`         | 快速重载vim配置文件
-`<F1>`       | `<Esc>`                    | 取消按F1键呼出帮助中心
-`<F2>`       | `:call HideNumber()<CR>`   | 显示/隐藏行号
-`<F3>`       | `:set list! list?<CR>`     | 显示/隐藏可打印符号
-`<F4>`       | `:set wrap! wrap?<CR>`     | 开启/关闭换行
-`<F6>`       | `:exec exists('syntax_on') ? 'syn off' : 'syn on'<CR>`  | 开启/关闭语法检查（关闭可加快大文件显示）
-`<F7>`       |                            | 开启/关闭黏贴模式（关闭时可原样黏贴代码）
-`H`          | `^`                        | 快速跳转到行首
-`L`          | `$`                        | 快速跳转到行尾
-`;`          | `:`                        | 执行vim命令
-`<C-a>`      | `<Home>`                   | vim本身的命令模式下跳转到行首
-`/`          | `/\v`                      | （正常/选中）模式下搜索
-`<`          | `<gv`                      | 选中往右移动后，保持选中
-`>`          | `>gv`                      | 选中往左移动后，保持选中
-`w!!`        | `w !sudo tee >/dev/null %` | 强制写入（用root权限写）
-`U`          | `<C-r>`                    | 重做
-`<C-b>`      | `<Left>`                   | 插入模式下往左移动
-`<C-j>`      | `<Down>`                   | 插入模式下往下移动
-`<C-k>`      | `<Up>`                     | 插入模式下往上移动
-`<C-f>`      | `<Right>`                  | 插入模式下往右移动
-`<C-a>`      | `<Home>`                   | 插入模式下移动到行首
-`<C-e>`      | `<End>`                    | 插入模式下移动到行尾
-`<C-d>`      | `<Del>`                    | 插入模式下删除当前字符
-`<C-l>`      | `<C-x><C-o>`               | 插入模式下提示函数参数信息
+| Function                   | Shortcut                                | Remarks         |
+| -------------------------- | --------------------------------------- | -------------- |
+| Directory Tree             | `Tab`                                   |                |
+| Code Snippet Completion     | `Tab`                                   | Insert Mode     |
+| Tag List                   | `<Leader>t`                             | Leader key is , |
+| Quick Alignment            | `<Leader>symbol`                        |                |
+| Quick Comment/Uncomment    | `gcc`                                   |                |
+| HTML Code Completion       | `<c-y>,`                                |                |
+| Quick Open File            | `<c-u/e>`                              |                |
+| Quick Search Function      | `<Leader>fu`                            |                |
+| Quick Select/Deselect Area  | `v/V`                                   |                |
+| Run Current File           | `<Leader>q`                             | Useful for debugging files |
+| Quick Jump                 | `<Leader><Leader>w/b/h/k/j/l`          |                |
+| Multi-Cursor Operation      | `ctrl-m`                                |                |
 
-# 8. 注意事项
-- 该配置参考了 [wklken/vim-for-server](https://github.com/wklken/vim-for-server) 的配置
-- 详细配置，请查看vimrc文件！
+# 7. Custom Shortcuts
+Shortcut      | Mapped to                | Description
+:-:           | :-:                      | :-:
+`Y`           | `$`                      | Copy to end of line
+`<space>`     | `/`                      | Search
+`<C-j>`       | `<C-W>j`                | Jump to below window
+`<C-k>`       | `<C-W>k`                | Jump to above window
+`<C-h>`       | `<C-W>h`                | Jump to left window
+`<C-l>`       | `<C-W>l`                | Jump to right window
+`<C-n>`       | `:bnext<cr>`            | Jump to next tab
+`<C-p>`       | `:bprev<cr>`            | Jump to previous tab
+`<Leader>sa`  | `ggVG`                   | Select all
+`<Leader>i`   | `:noh<cr>`              | Cancel highlight
+`<leader>zz`  | `:call ToggleFold()<cr>`| Fold/Unfold
+`<leader>1`   | `:bfirst<cr>`           | Jump to first tab
+`<leader>2`   | `:b2<cr>`               | Jump to tab 2
+`<leader>3`   | `:b3<cr>`               | Jump to tab 3
+`<leader>4`   | `:b4<cr>`               | Jump to tab 4
+`<leader>5`   | `:b5<cr>`               | Jump to tab 5
+`<leader>6`   | `:b6<cr>`               | Jump to tab 6
+`<leader>7`   | `:b7<cr>`               | Jump to tab 7
+`<leader>8`   | `:b8<cr>`               | Jump to tab 8
+`<leader>9`   | `:b9<cr>`               | Jump to tab 9
+`<leader>0`   | `:blast<cr>`            | Jump to tab 0
+`<leader>d`   | `:bd<cr>`               | Remove current tab
+`<leader>y`   | `"+y`                    | Copy selected area to clipboard
+`<leader>v`   | ``V`}``                  | Select current block
+`<leader>w`   | `:w<CR>`                | Quick save
+`<leader>ev`  | `:e $MYVIMRC<CR>`       | Quick edit vim config file
+`<leader>sv`  | `:so $MYVIMRC<CR>`      | Quick reload vim config file
+`<F1>`        | `<Esc>`                 | Cancel F1 help center
+`<F2>`        | `:call HideNumber()<CR>`| Show/Hide line numbers
+`<F3>`        | `:set list! list?<CR>`  | Show/Hide printable characters
+`<F4>`        | `:set wrap! wrap?<CR>`  | Enable/Disable line wrapping
+`<F6>`        | `:exec exists('syntax_on') ? 'syn off' : 'syn on'<CR>` | Enable/Disable syntax check (turning off can speed up display for large files)
+`<F7>`        |                           | Enable/Disable paste mode (turning off allows pasting code as is)
+`H`           | `^`                      | Quick jump to line start
+`L`           | `$`                      | Quick jump to line end
+`;`           | `:`                      | Execute vim command
+`<C-a>`       | `<Home>`                 | Jump to line start in command mode
+`/`           | `/\v`                     | (Normal/Visual) mode search
+`<`           | `<gv`                    | Maintain selection when moving right
+`>`           | `>gv`                    | Maintain selection when moving left
+`w!!`         | `w !sudo tee >/dev/null %`| Force write (using root permissions)
+`U`           | `<C-r>`                 | Redo
+`<C-b>`       | `<Left>`                | Move left in insert mode
+`<C-j>`       | `<Down>`                | Move down in insert mode
+`<C-k>`       | `<Up>`                  | Move up in insert mode
+`<C-f>`       | `<Right>`               | Move right in insert mode
+`<C-a>`       | `<Home>`                | Move to line start in insert mode
+
+
+`<C-e>`       | `<End>`                 | Move to line end in insert mode
+`<C-d>`       | `<Del>`                 | Delete current character in insert mode
+`<C-l>`       | `<C-x><C-o>`            | Show function parameter info in insert mode
+
+# 8. Notes
+- This configuration references [wklken/vim-for-server](https://github.com/wklken/vim-for-server)
+- For detailed configuration, please check the vimrc file!
 
 # 9. License
-想干嘛干嘛
-
+Do whatever you want
