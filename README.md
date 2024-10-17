@@ -1,9 +1,6 @@
 # 1. 简单介绍
 
 **本文也发到`CSDN`：[向阳是我](https://blog.csdn.net/leptune99)**
-**目前已经`133🌟`，欢迎`Star`～**
-
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/44d678b35bf741c18767f44677a9457a.png#pic_center)
 
 **DOCUMENT FOR [ENGLISH](https://github.com/Leptune/vim-for-coding/blob/master/README_EN.md)**
 
