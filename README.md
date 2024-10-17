@@ -5,9 +5,12 @@
 该vim配置拥有各种大气的被动和主动技能！！
 
 ## 如果没有安装git，请先安装
-Centos安装：`sudo yum -y install git`
-Ubuntu安装：`sudo apt install git`
-Mac安装：`brew install git`
+
+* Centos安装：`sudo yum -y install git`
+  
+* Ubuntu安装：`sudo apt install git`
+  
+* Mac安装：`brew install git`
 
 
 ## 一分钟极速安装 (如果是windows，强烈推荐安装[BabunShell](https://github.com/babun/babun))
