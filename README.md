@@ -1,6 +1,6 @@
 # 1. 简单介绍
 
-**本文也发到`CSDN`：[向阳是我](https://github.com/Leptune/vim-for-coding)**
+**本文也发到`CSDN`：[向阳是我](https://blog.csdn.net/leptune99)**
 **欢迎来访～**
 
 **DOCUMENT FOR [ENGLISH](https://github.com/Leptune/vim-for-coding/blob/master/README_EN.md)**
