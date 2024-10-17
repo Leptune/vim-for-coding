@@ -1,24 +1,24 @@
-# DOCUMENT FOR [ENGLISH](https://github.com/Leptune/vim-for-coding/blob/master/README_EN.md)
+# 1. 简单介绍
 
-# coding程序猿的专属vimrc配置!
+**本文也发到`CSDN`：[向阳是我](https://github.com/Leptune/vim-for-coding)**
+**欢迎来访～**
+
+**DOCUMENT FOR [ENGLISH](https://github.com/Leptune/vim-for-coding/blob/master/README_EN.md)**
+
+**coding程序猿的专属vimrc配置**
 
 该vim配置拥有各种大气的被动和主动技能！！
 
-## 如果没有安装git，请先安装
-
+**如果没有安装git，请先安装：**
 * Centos安装：`sudo yum -y install git`
-  
 * Ubuntu安装：`sudo apt install git`
-  
 * Mac安装：`brew install git`
-
-
-## 一分钟极速安装 (如果是windows，强烈推荐安装[BabunShell](https://github.com/babun/babun))
+# 2. 一分钟极速安装 
+(如果是windows，强烈推荐安装[BabunShell](https://github.com/babun/babun))
 ```sh
 curl 'https://gitee.com/lee1989/vim-for-coding/raw/master/install.sh' | sh
 ```
-
-## 极速卸载
+# 3. 极速卸载
 ```sh
 cd ~
 rm -rf .vim
@@ -26,52 +26,48 @@ rm -rf .vimrc
 mv .vimbak .vim &>/dev/null
 mv .vimrcbak .vimrc &> /dev/null
 ```
-
-## 截图（最常用快捷键和功能）
-
-### 多选 （`<ctrl>m`）
-![img](https://gitee.com/lee1989/gif/raw/master/screenshots/muti_select.gif)
+# 4.截图（最常用快捷键和功能）
+## 4.1 多选 （`<ctrl>m`）
+![img](https://img-blog.csdnimg.cn/img_convert/e28fd7ab92633d6572fc5453f7c030b8.gif)
 
 ---
 
-### 快速跳转（`,,h/j/k/l`）
-![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_jump.gif)
+## 4.2 快速跳转（`,,h/j/k/l`）
+![img](https://img-blog.csdnimg.cn/img_convert/5f9e43fbdb9f20d4ad4cc1b0df03deb4.gif)
 
 ---
 
-### 快速对齐（`,=`）
-![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_align.gif)
+## 4.3 快速对齐（`,=`）
+![img](https://img-blog.csdnimg.cn/img_convert/7da9fa89d813ac727759706e383971a8.gif)
 
 ---
 
-### 快速搜索函数（`,fu`）
-![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_search_function.gif)
+## 4.4 快速搜索函数（`,fu`）
+![img](https://img-blog.csdnimg.cn/img_convert/8426f5a079631fd1304798de13bd2f86.gif)
 
 ---
 
-### 快速打开文件（`<ctrl>u`：在所有文件中打开，`<ctrl>e`：在最近的文件中打开）
-![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_open_file.gif)
+## 4.5 快速打开文件（`<ctrl>u`：在所有文件中打开，`<ctrl>e`：在最近的文件中打开）
+![img](https://img-blog.csdnimg.cn/img_convert/04a5ae0e4193a2aa903cd07c00a22b70.gif)
 
 ---
 
-### 快速运行文件（`,q`）
-![img](https://gitee.com/lee1989/gif/raw/master/screenshots/quick_run.gif)
+## 4.6 快速运行文件（`,q`）
+![img](https://img-blog.csdnimg.cn/img_convert/04c71ca601c18ab77a441615c941a284.gif)
 
 ---
 
-### 自动补全（`<tab>`）
-![img](https://gitee.com/lee1989/gif/raw/master/screenshots/auto_complete.gif)
+## 4.7 自动补全（`<tab>`）
+![img](https://img-blog.csdnimg.cn/img_convert/4fe8ec590b6dbc2bed64d8e561e1cf0b.gif)
 
 ---
 
-### 插入模式下快速移动以及php函数提示（`<ctr>b/f/j/k/e/a`）
-![img](https://gitee.com/lee1989/gif/raw/master/screenshots/insert_mode_move_and_php_func_tips.gif)
+## 4.8 插入模式下快速移动以及php函数提示（`<ctr>b/f/j/k/e/a`）
+![img](https://img-blog.csdnimg.cn/img_convert/68521770ae4b2b4ae7ba219038651792.gif)
 
-### 浏览文件目录和tags（`<tab>`）
-![img](https://gitee.com/lee1989/gif/raw/master/screenshots/list_dir_function.gif)
-
-
-## 被动技能
+## 4.9 浏览文件目录和tags（`<tab>`）
+![img](https://img-blog.csdnimg.cn/img_convert/a29894b409c3fecf5ef5ebb6218919d8.gif)
+# 5. 被动技能
 - 各种自动补全(php、html、括号)
 - 编辑多个文件时显示标签
 - 保存时自动检查php文件有无语法错误
@@ -79,7 +75,7 @@ mv .vimrcbak .vimrc &> /dev/null
 - 增加molokai主题
 - 让vim能兼容tmux
 
-## 主动技能
+# 6. 主动技能
 
 >- 说明：`<leader>`键为`,`键
 
@@ -98,7 +94,7 @@ mv .vimrcbak .vimrc &> /dev/null
 | 快速跳转                    | `<Leader><Leader>w/b/h/k/j/l`             |                |
 | 多光标操作                  | `ctrl-m `                                 |                |
 
-## 自定义快捷键
+# 7. 自定义快捷键
 快捷键       | 映射为                     | 功能说明
 :-:          | :-:                        | :-:
 `Y`          | `$`                        | 复制到行尾
@@ -152,10 +148,10 @@ mv .vimrcbak .vimrc &> /dev/null
 `<C-d>`      | `<Del>`                    | 插入模式下删除当前字符
 `<C-l>`      | `<C-x><C-o>`               | 插入模式下提示函数参数信息
 
-## 注意事项
+# 8. 注意事项
 - 该配置参考了 [wklken/vim-for-server](https://github.com/wklken/vim-for-server) 的配置
 - 详细配置，请查看vimrc文件！
 
-## License
+# 9. License
 想干嘛干嘛
 
